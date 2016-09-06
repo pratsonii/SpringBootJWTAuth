@@ -6,14 +6,12 @@ import org.hibernate.annotations.GenericGenerator;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.AuthorityUtils;
 
-import com.pratik.domain.base.DomainBase;
-
 import java.util.Date;
 import java.util.List;
 
 @Entity
 @Table(name = "users")
-public class User extends DomainBase {
+public class User {
 
 	@Id
 	@GeneratedValue(generator = "increment")

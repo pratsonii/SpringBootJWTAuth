@@ -1,8 +1,6 @@
 package com.pratik.model.json.response;
 
-import com.pratik.model.base.ModelBase;
-
-public class AuthenticationResponse extends ModelBase {
+public class AuthenticationResponse  {
 
 	private static final long serialVersionUID = -6624726180748515507L;
 	private String token;
